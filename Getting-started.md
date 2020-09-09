@@ -121,7 +121,7 @@ print a || b;
 ```
 Full list of operators can be found [here](#) :]
 
-## Arrays
+### Arrays
 
 There are two types of arrays in Chime: associative, and usual.
 Normal arrays look the same as in several other languages:
@@ -144,4 +144,42 @@ print arr[0];
 print arr2["key"];
 ```
 
-## TODO functions, modules
+### Functions
+
+Functions in Chime are either predefined or user-defined.
+Predefined functions are stored in what we call "modules".
+Currently there is 1 module available.
+
+To use a module, you need to import it using
+
+```
+import "moduleName";
+```
+You can find everything about all modules [here](#).
+
+Also, you of course can define your own functions. They look like this:
+
+```
+function functionName(argument, a, b){
+    # Function body here #
+}
+```
+Note that you also can specify the default argument values:
+
+```
+...(argument = "default", a = 3, b = 5)...
+```
+Calling a function is really simple. Just specify its name and parentheses with arguments:
+
+```
+functionName();
+functionWithArgs("good", 2, 1);
+functionWithArgs("another");
+```
+There is an ability to return values too. It works like that:
+
+```
+function func() return "world!";
+print "Hello " . func();
+```
+## TODO switch, links to other pages
