@@ -2,7 +2,7 @@
 
 ## Installation
 
-#### Normal (simple)
+### Normal (simple)
 
 Just [Download](#) the Chime interpreter and run it using:
 
@@ -10,7 +10,7 @@ Just [Download](#) the Chime interpreter and run it using:
 java -jar Chime.jar <path-to-file> [arguments...]
 ```
 
-#### Build from source
+### Build from source
 
 1. Create a new project in your Java IDE (Eclipse recommended).
     - Use `src` folder only for sources
@@ -22,12 +22,12 @@ java -jar Chime.jar <path-to-file> [arguments...]
 
 ## Basics
 
-#### Value types
+### Value types
 
 In Chime, there are several data types:
 
 Name | Type
------------
+-----|-----
 Integer | int
 Double | double
 Boolean | bool
@@ -38,7 +38,7 @@ Function | function
 
 As Chime is a dynamic language, there's no need to specify the type.
 
-#### Variables
+### Variables
 
 Variables can be defined in several ways.
 Although, unlike in other languages, you can't define an empty one. You have to assign a value:
@@ -53,7 +53,7 @@ Also, Chime supports "destructuring assignment":
 [var1, var2, anotherVar] = [3, "Hi", true];
 ```
 
-#### Basic statements
+### Basic statements
 
 Of course, one of the most important things is I/O.
 You can output any value that is convertible to string as simple as:
@@ -78,4 +78,47 @@ The second way is "prompting" to input, by asking a text before input.
 input "Enter your answer:" in myVar;
 ```
 
-#### TBA...
+### Operators
+
+In Chime, there are lots of operations with different data types.
+The most common number operations, we all know are:
+
+```
+print 2 + 2;
+print 10 - 5;
+print 5 * 8;
+print 10 / 2;
+```
+**Warning**: _When performing a number operation, the factors are casted into doubles!_
+
+There are some more advanced number operations:
+
+```
+print 17 % 5; # Remainder #
+print 3!; # Factorial #
+a += 2; # Same as a = a + 2 #
+b *= 3; # Same as b = b * 3 #
+```
+Please, note that `#` is used for comments. You can type anything in a comment,
+Chime will ignore it. 
+
+`#<your_comment>#`
+
+Sure there are some string operations too!
+
+```
+print "Hello " . "world!"; # Concatenation #
+print "smol" < "BIGGER"; # Length comparison #
+```
+And, as you see, some logical operators as well:
+
+```
+print a >= 2;
+print b == c;
+print !a != c;
+print b && c;
+print a || b;
+```
+Full list of operators can be found [here](#) :]
+
+## TODO arrays (+ maps), functions, modules
