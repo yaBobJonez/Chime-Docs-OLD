@@ -121,4 +121,27 @@ print a || b;
 ```
 Full list of operators can be found [here](#) :]
 
-## TODO arrays (+ maps), functions, modules
+## Arrays
+
+There are two types of arrays in Chime: associative, and usual.
+Normal arrays look the same as in several other languages:
+
+```
+arr = ["hi", 5.2, false];
+```
+There, elements are stored by indexes starting 0.
+"hi" is 0th element, 5.2 is 1st, and false is 2nd.
+
+And also, associate arrays (AKA maps, "Hashtens") use key:value structure:
+
+```
+arr2 = {"key": "value", 10: true};
+```
+To access an array, we use arrayName[key]:
+
+```
+print arr[0];
+print arr2["key"];
+```
+
+## TODO functions, modules
