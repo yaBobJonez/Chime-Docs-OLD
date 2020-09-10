@@ -144,6 +144,34 @@ print arr[0];
 print arr2["key"];
 ```
 
+### Control flows
+
+In Chime, there are basic control flows supported.
+The most common `if/else` is in C style:
+
+```
+if(condition){
+    # Do something #
+} else if(cond2){
+    # Do another stuff #
+} else {
+    # Do something else #
+}
+```
+And also, there's `switch`: special statement that is used as a replacement
+for multiple `if` (no `else` yet) statements.
+
+```
+switch(value){
+    case "this": { #do stuff# }
+    case "that": print "No fallthrough!";
+}
+```
+**Warning**: _there is **NO** fall-through, which means you can't use `break` and you can't
+chain `case`!_
+
+As of now, there's No `default` case either, so it's impossible to have "else".
+
 ### Functions
 
 Functions in Chime are either predefined or user-defined.
@@ -182,4 +210,4 @@ There is an ability to return values too. It works like that:
 function func() return "world!";
 print "Hello " . func();
 ```
-## TODO switch, links to other pages
+## TODO loops, links to other pages
