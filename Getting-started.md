@@ -172,6 +172,41 @@ chain `case`!_
 
 As of now, there's No `default` case either, so it's impossible to have "else".
 
+### Loops
+
+There are most of basic loops supported in Chime.
+A loop is a statement that repeats several times but each time with different value.
+
+Standard `for` loop uses commas instead of semicolons, like this:
+
+```
+for(i = 0, i < 5, i+=1){
+    # Do something #
+}
+```
+Another loops are `while` and `do/while`, such:
+
+```
+while(condition){
+    # Do something #
+}
+do {
+    # Do something #
+} while(condition);
+```
+The difference is that `do/while` loops executes it's body and then check the condition,
+henceforth it will be executed at least once.
+
+And also, in Chime exists special loop called `foreach`. It is used to iterate over iterable
+objects, such as arrays. Basically, the general rule is:
+
+```
+foreach(element in array){
+    # Output each element of an array #
+    print element;
+}
+```
+
 ### Functions
 
 Functions in Chime are either predefined or user-defined.
@@ -210,4 +245,4 @@ There is an ability to return values too. It works like that:
 function func() return "world!";
 print "Hello " . func();
 ```
-## TODO loops, links to other pages
+## TODO links to other pages here, like "Check out more info"
