@@ -26,10 +26,10 @@ More examples can be found [here](https://pastebin.com/raw/2tV0V9FG) :)
 
 ## Documentation
 
-1. [Getting started](#)
-2. [Basics](#)
+1. [Installation](Getting-started#Installation)
+2. [Basics](Getting-started#Basics)
 3. TBA
 
 ## Downloads
 
-TBA as Buttons
+_Not released_
