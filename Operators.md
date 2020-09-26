@@ -11,24 +11,24 @@ Note that "number" stands for numeric types i.e. int and double.
 Operator | Name                   | Use
 ---------|------------------------|-----------
 \=       | Assignment             | a = b
-+        | Addition               | a + b
--        | Subtraction            | a - b
-*        | Multiplication         | a * b
-/        | Division               | a / b
-^        | To the power of        | a ^ b
-%        | Modulo                 | a % b
-.        | Concatenation          | a . b
-+=       | Add-assign             | a += b
--=       | Subtract-assign        | a -= b
+\+       | Addition               | a + b
+\-       | Subtraction            | a - b
+\*       | Multiplication         | a * b
+\/       | Division               | a / b
+\^       | To the power of        | a ^ b
+\%       | Modulo                 | a % b
+\.       | Concatenation          | a . b
+\+=      | Add-assign             | a += b
+\-=      | Subtract-assign        | a -= b
 \*=      | Multiply-assign        | a \*= b
-/=       | Divide-assign          | a /= b
-?:       | Ternary                | a ? t : f
-==       | Equals                 | a == b
-!=       | Not equals             | a != b
-!        | Not                    | !a
->        | Greater than           | a > b
-<        | Less than              | a < b
->=       | Greater than or equals | a >= b
-<=       | Less than or equals    | a <= b
-|        | Inclusive or           | a | b
-&        | And                    | a & b
+\/=      | Divide-assign          | a /= b
+\?:      | Ternary                | a ? t : f
+\==      | Equals                 | a == b
+\!=      | Not equals             | a != b
+\!       | Not                    | !a
+\>       | Greater than           | a > b
+\<       | Less than              | a < b
+\>=      | Greater than or equals | a >= b
+\<=      | Less than or equals    | a <= b
+\|       | Inclusive or           | a | b
+\&       | And                    | a & b
