@@ -10,7 +10,7 @@ Note that "number" stands for numeric types i.e. int and double.
 
 Operator | Name                   | Use
 ---------|------------------------|-----------
-=        | Assignment             | a = b
+\=       | Assignment             | a = b
 +        | Addition               | a + b
 -        | Subtraction            | a - b
 *        | Multiplication         | a * b
