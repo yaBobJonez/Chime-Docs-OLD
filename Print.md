@@ -12,7 +12,7 @@ print <expression>;
 
 ### Arguments
 
-<expression> returns string value.
+\<expression> returns string value.
 
 ### Returns
 
