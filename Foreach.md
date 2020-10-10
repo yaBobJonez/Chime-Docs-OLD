@@ -1,6 +1,6 @@
 # Foreach
 
-_As of Alpha_
+_As of Indev 371b148_
 
 Foreach is a loop statement that executes its body for each element
 in iterated container, such as an array.
@@ -15,8 +15,8 @@ foreach(<element> in <container>){
 
 ### Arguments
 
-\<element> is a variable, or a pair of variables separated with a colon;
-\<container> returns container access.
+- \<element> is a variable, or a pair of variables separated with a colon;
+- \<container> returns container access.
 
 ### Returns
 
