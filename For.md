@@ -1,6 +1,6 @@
 # For
 
-_As of Alpha_
+_As of Indev 168429d_
 
 For is loop statement designed to execute the code in it's body for
 each `i` with starting value (called initialization), meeting the
@@ -18,9 +18,9 @@ for(<init>, <cond>, <incr>){
 
 ### Arguments
 
-\<init> is a variable initialization / assignment;
-\<cond> returns boolean for the variable;
-\<incr> is an incrementation for the variable.
+- \<init> is a variable initialization / assignment;
+- \<cond> returns boolean for the variable;
+- \<incr> is an incrementation for the variable.
 
 ### Returns
 
