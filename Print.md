@@ -1,6 +1,6 @@
 # Print
 
-_As of Alpha_
+_As of the Beginning (d5aee41)_
 
 Print is a statement language construct used to output a value to
 the default I/O stream (stdout).
