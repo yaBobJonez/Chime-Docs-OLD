@@ -1,6 +1,6 @@
 # If/Else
 
-_As of Alpha_
+_As of Indev 2bd874c_
 
 If is a control flow designed to check for a condition,
 and evaluate the body if it's true. Otherwise, if the result
@@ -18,8 +18,8 @@ results of the condition.
 
 ### Arguments
 
-\<condition> returns boolean value;
-\<if body>, \<else body> are blocks or statements.
+- \<condition> returns boolean value;
+- \<if body>, \<else body> are blocks or statements.
 
 ### Returns
 
