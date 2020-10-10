@@ -10,6 +10,11 @@ while(<condition>){
     <body>
 }
 ```
+```
+do{
+    <body>
+} while(<condition>);
+```
 
 Do/while is a loop statement that is similar to while, except it will execute
 at least once by executing the body at first, and then repeating it while
