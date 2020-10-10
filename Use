@@ -1,0 +1,29 @@
+# Use (import)
+
+_As of Indev 240b4bb_
+
+Use is a directive statement that loads the specified in-Chime-defined module or
+several modules by inserting classes, functions, variables, and constants.
+
+**Warning**: may be changed into `import` in the future.
+
+```
+use <module>;
+```
+
+### Arguments
+
+\<module> returns string or array of strings.
+
+### Returns
+
+Void.
+
+### Examples
+
+```
+use "std";
+```
+```
+use ["std", "forms"];
+```
