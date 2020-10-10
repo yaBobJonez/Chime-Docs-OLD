@@ -14,15 +14,15 @@ Operator | Name                   | Use
 \+       | Addition               | a + b
 \-       | Subtraction            | a - b
 \*       | Multiplication         | a * b
-\/       | Division               | a / b
-\^       | To the power of        | a ^ b
-\%       | Modulo                 | a % b
+/       | Division               | a / b
+^       | To the power of        | a ^ b
+%       | Modulo                 | a % b
 \.       | Concatenation          | a . b
 \+=      | Add-assign             | a += b
 \-=      | Subtract-assign        | a -= b
 \*=      | Multiply-assign        | a \*= b
-\/=      | Divide-assign          | a /= b
-\?:      | Ternary                | a ? t : f
+/=      | Divide-assign          | a /= b
+?:      | Ternary                | a ? t : f
 \==      | Equals                 | a == b
 \!=      | Not equals             | a != b
 \!       | Not                    | !a
@@ -30,5 +30,5 @@ Operator | Name                   | Use
 \<       | Less than              | a < b
 \>=      | Greater than or equals | a >= b
 \<=      | Less than or equals    | a <= b
-\|       | Inclusive or           | a | b
-\&       | And                    | a & b
+\|       | Inclusive or           | a \| b
+&       | And                    | a & b
