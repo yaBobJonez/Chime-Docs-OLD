@@ -39,11 +39,11 @@ return <expr>;
 
 ### Arguments
 
-- <functionName>, <objectName> are keywords,
-- <arguments> are 0 or more expressions that return values,
-- <defArgs> are 0 or more keywords,
-- <body> is a statement or block,
-- <expr> returns value.
+- \<functionName>, \<objectName> are keywords,
+- \<arguments> are 0 or more expressions that return values,
+- \<defArgs> are 0 or more keywords,
+- \<body> is a statement or block,
+- \<expr> returns value.
 
 ### Returns
 
