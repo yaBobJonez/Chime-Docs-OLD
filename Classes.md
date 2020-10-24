@@ -54,10 +54,10 @@ _TBA scope_
 
 ### Arguments
 
-- <className>, <objName>, <fieldName>, <methodName> are identifiers,
-- <constrArgs> are 0 or more identifiers,
-- <args> are 0 or more values,
-- <body> is a block or a statement.
+- \<className>, \<objName>, \<fieldName>, \<methodName> are identifiers,
+- \<constrArgs> are 0 or more identifiers,
+- \<args> are 0 or more values,
+- \<body> is a block or a statement.
 
 ### Returns
 
