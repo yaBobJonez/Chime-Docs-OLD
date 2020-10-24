@@ -15,8 +15,8 @@ input <var> in <expr>;
 
 ### Arguments
 
-- <var> is an identifier,
-- <expr> returns string value.
+- \<var> is an identifier,
+- \<expr> returns string value.
 
 ### Returns
 
